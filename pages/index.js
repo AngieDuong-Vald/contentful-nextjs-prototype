@@ -30,7 +30,7 @@ export default function Index({
       </div>
 
       <div className="md:px-32 px-16 pt-16">
-        <div className="flex flex-col lg:flex-row pb-12 gap-10">
+        <div className="flex flex-col xl:flex-row pb-12 gap-10">
           {proofPoints.map((proofPoint) => {
             return (
               <ProofPoint
@@ -45,11 +45,11 @@ export default function Index({
         </div>
       </div>
 
-      <div className=" flex items-center flex-col space-x-10 md:flex-row md:px-32 px-16">
-        <div className="w-1/2">
+      <div className=" flex items-center flex-col lg:space-x-10 md:flex-row md:px-32 px-16">
+        <div className="lg:w-1/2 max-w-full">
           <img src="blurb.png" alt="Blurb Image" />
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center lg:w-1/2">
           <h2 className="text-3xl font-bold text-orange text-center pb-5 pt-10">
             {cta[0].fields.heading}
           </h2>
