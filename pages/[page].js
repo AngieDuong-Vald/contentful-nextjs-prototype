@@ -1,5 +1,5 @@
 import ContentContainer from "@/components/Content";
-import { Layout } from "@/components/layout";
+import { Layout } from "@/components/Layout";
 import { createClient } from "contentful";
 import Image from "next/image";
 
