@@ -10,6 +10,7 @@
     "tailwind": "tailwindcss -i ./styles/globals.css -o ./css/main.css --watch"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.16.3",
     "contentful": "^10.1.2",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",

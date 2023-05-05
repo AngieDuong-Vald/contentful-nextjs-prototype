@@ -10,6 +10,7 @@ export default function Page({ fields, contents, heroImages, logo, footer }) {
         <img
           src={"http:" + heroImages[0].fields.image.fields.file.url}
           alt="Hero Image"
+          className="w-full"
         />
       </div>
       {contents.map((content) => (
