@@ -17,6 +17,7 @@ export default function Index({
         <img
           src={"http:" + heroImages[0].fields.image.fields.file.url}
           alt="Hero Image"
+          className="w-full"
         />
       </div>
 
